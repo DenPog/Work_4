@@ -23,9 +23,9 @@ int n=0,cl=0,f=0,k=0;
 int show_1() {
 	if (f==1) {
 		cout << endl;
-		cout << "Поворот на "<< k <<" градусов" << endl << endl;
+		cout << "povorot na "<< k <<" gradusov" << endl << endl;
 	}
-	else { cout << "Первоначальное состояние массива" << endl << endl; }
+	else { cout << "pervonachalnoe znachenie massiva" << endl << endl; }
 
 
 	for (int i = 0; i < DIM1; i++) {
@@ -42,7 +42,7 @@ int show_1() {
 
 int deg_90() {
 	cout << endl;
-	cout << "Поворот на "<< k << " градусов" << endl << endl;
+	cout << "povorot na "<< k << " gradusov" << endl << endl;
 
 	for (int i = 0; i <DIM1; i++) {
 		for (int j = 2; j >=0; j--) {
@@ -56,7 +56,7 @@ int deg_90() {
 
 int deg_180() {
 	cout << endl;
-	cout << "Поворот на "<< k <<" градусов" << endl << endl;
+	cout << "povorot na "<< k <<" gradusov" << endl << endl;
 	
 	
 	for (int i = 2; i >= 0; i--) {
@@ -71,7 +71,7 @@ int deg_180() {
 
 int deg_270() {
 	cout << endl;
-	cout << "Поворот на "<< k << " градусов" << endl << endl;
+	cout << "povorot na "<< k << " gradusov" << endl << endl;
 	for (int i = 2; i >= 0; i--) {
 		for (int j = 0; j <DIM2; j++) {
 			cout << setw(4) << ary[j][i];
@@ -90,7 +90,7 @@ int main()
 
 	show_1();
 	
-	cout << "Введите число указывающее количество поворотов на 90 градусов" << endl;
+	cout << "vvedite chislo dlya kolichestva povorotov na 90 gratusov" << endl;
 	cin >> n;
 
 	for (int i = 0; i < n; i++) {
